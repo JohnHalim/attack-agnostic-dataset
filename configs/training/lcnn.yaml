@@ -5,10 +5,7 @@ data:
     use_spectrogram: False
 
 checkpoint:
-  paths: [
-  "trained_models/aad__lcnn_fold_0__1712235231.8917823/ckpt.pth",
-  "trained_models/aad__lcnn_fold_1__1712235231.8917823/ckpt.pth",
-  ]
+  paths: []
 
 model:
   name: "lcnn"
